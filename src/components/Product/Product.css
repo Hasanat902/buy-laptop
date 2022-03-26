@@ -17,7 +17,13 @@
     border: 0;
     border-radius: 8px;
     font-size: 17px;
-    font-weight: bold;
     color: rgba(255, 68, 0, 0.726);
     background-color: rgba(143, 188, 143, 0.692);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-text{
+    margin-right: 7px;
 }
