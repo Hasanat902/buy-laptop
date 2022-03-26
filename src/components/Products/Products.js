@@ -18,6 +18,12 @@ const Products = () => {
         setCarts(newCart);
     }
 
+
+    const handleReset = () => {
+        const newCart = [];
+        setCarts(newCart);
+    }
+
     return (
         <div className='products-container'>
             <div className="products-details">
@@ -28,6 +34,9 @@ const Products = () => {
             <div className="products-cart">
                 <h2>Selected Products</h2>
                 <h3 className='selected-product'>{carts.map(cart => <h5>{cart.name}</h5>)}</h3>
+                <button className='choose-random'>Choose 1 For Me</button>
+                <br />
+                <button onClick={handleReset} className='reset-choose'>Reset</button>
             </div>
         </div>
     );
