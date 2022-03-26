@@ -7,6 +7,8 @@ const Products = () => {
 
     const [carts, setCarts] = useState([]);
 
+    const [randoms, setRandoms] = useState([]);
+
     useEffect( () => {
         fetch('data.json')
             .then(res => res.json())
@@ -18,6 +20,10 @@ const Products = () => {
         setCarts(newCart);
     }
 
+    const pickRandom = () => {
+        const random = carts[Math.floor(Math.random() * carts.length)]
+        setRandoms(random);
+    }
 
     const handleReset = () => {
         const newCart = [];
@@ -34,8 +40,9 @@ const Products = () => {
             <div className="products-cart">
                 <h2>Selected Products</h2>
                 <h3 className='selected-product'>{carts.map(cart => <h5>{cart.name}</h5>)}</h3>
-                <button className='choose-random'>Choose 1 For Me</button>
+                <button onClick={pickRandom} className='choose-random'>Choose 1 For Me</button>
                 <br />
+                <h3>{randoms.name}</h3>
                 <button onClick={handleReset} className='reset-choose'>Reset</button>
             </div>
         </div>
