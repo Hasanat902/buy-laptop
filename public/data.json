@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "HP 15s-du1115TU",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-du1115tu/15s-du1115tu-01-500x500.jpg",
+        "price": 35000
+    },
+    {
+        "id": 2,
+        "name": "HP 15s-du1116TU",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/hp-laptop/15s-du1116tu/15s-du1116tu-01-500x500.jpg",
+        "price": 37000
+    },
+    {
+        "id": 3,
+        "name": "Razer Book 13",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/razer/book-13/book-13-500x500.jpg",
+        "price": 97000
+    },
+    {
+        "id": 4,
+        "name": "Razer Blade 15",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/razer/blade-15-advanced-model/blade-15-advanced-model-01-500x500.jpg",
+        "price": 89000
+    },
+    {
+        "id": 5,
+        "name": "ASUS VivoBook",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-15-x515ja/15-x515ja-slate-grey-500x500.jpg",
+        "price": 49000
+    },
+    {
+        "id": 6,
+        "name": "Asus Vivobook Go",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/asus/vivobook-go-14/vivobook-go-14-101-500x500.jpg",
+        "price": 44000
+    },
+    {
+        "id": 7,
+        "name": "Lenovo IdeaPad",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/ip-slim/ip-slim-15-500x500.jpg",
+        "price": 53000
+    },
+    {
+        "id": 8,
+        "name": "Lenovo ThinkBook",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/lenovo/thinkbook-14-gen-2/thinkbook-14-gen-2-02-500x500.jpg",
+        "price": 73000
+    },
+    {
+        "id": 9,
+        "name": "Huawei Matebook",
+        "image": "https://www.startech.com.bd/image/cache/catalog/laptop/huawei/matebook-x-pro/matebook-x-pro-01-500x500.jpg",
+        "price": 63000
+    }
+]
