@@ -1,0 +1,23 @@
+.product-container{
+    border: 1px solid rgba(128, 128, 128, 0.445);
+}
+.product-container img{
+    width: 350px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.product-info{
+    padding-left: 20px;
+    margin: 0;
+}
+
+.cart-btn{
+    width: 100%;
+    border: 0;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgba(255, 68, 0, 0.726);
+    background-color: rgba(143, 188, 143, 0.692);
+}
