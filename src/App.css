@@ -36,3 +36,13 @@
     transform: rotate(360deg);
   }
 }
+
+.site-header{
+  color: orange;
+  text-align: center;
+}
+
+.site-header2{
+  color: darkcyan;
+  text-align: center;
+}
